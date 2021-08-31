@@ -10,7 +10,8 @@ var server = http.createServer(function (req, res) {
     // 得到用户的url
     var url = req.url;
     // 使用正则表达式进行信息的获取
-    var arr = url.match(/\/user\/(.+)\/(.+)\/(.+)$/);
+    // match匹配结果返回一个数组，数组的第0项是整个字符串，第1项是第1个(.+)匹配的结果，以此类推
+    var arr = url.match(/\/user\/(.+)\/(.+)$/);
     console.log(arr)
     // 如果没有对应的路由地址，抛出错误
     if (!arr) {
