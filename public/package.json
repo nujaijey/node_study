@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "egg-exmail": "^1.0.4",
+    "nzh": "^1.0.5",
+    "past-time": "^1.0.3",
+    "solarlunar": "^2.0.7"
+  },
+  "name": "node_study",
+  "version": "1.0.0",
+  "description": "node study",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nujaijey/node_study.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "nujaijey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nujaijey/node_study/issues"
+  },
+  "homepage": "https://github.com/nujaijey/node_study#readme"
+}
